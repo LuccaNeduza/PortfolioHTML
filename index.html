@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/bdbdb7b544.js" crossorigin="anonymous"></script>
+<style>
+    .foto-perfil{
+        height:100%;
+        width:auto;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .corPrimaria{
+        background-color: darkblue;
+    }
+    .corSecundaria{
+        background-color: azure;
+    }
+    p{
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color:black !important;
+    }
+    .icones{
+        padding-left: 5px;
+    }
+    .titulosBrancos{
+        text-underline-position: below;
+        padding-bottom: 20px;
+        font-weight: 700;
+        color:white;
+    }
+    .titulosVerdes{
+        text-decoration: underline;
+        text-underline-position: below;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color:teal;
+    }
+    .textoBranco{
+        color:white !important;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .jumbotron{
+      margin-bottom: 0px;
+    }
+</style>
+</head>
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+           </ul>
+           <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#Projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Sobre Mim">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contato">Contato</a>
+            </li>
+           </ul>
+        </div>
+      </nav>
+      <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="data:image/jpeg;base64,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" alt="">
+          <h1 class="jumbotron-heading titulosBrancos">Experiência Criativa</h1>
+          <p class="lead text-muted textoBranco">Website destinado a apresentar os projetos desenvolvidos na disciplina de Experiência Criativa do curso de Ciência da Computação</p>
+          <p>
+            <a href="#" class="btn btn-dark my-2">Contato</a>
+          </p>
+          <a href="https://www.facebook.com"><i class="icones fab fa-facebook textoBranco"></i></a>
+          <a href="https://www.instagram.com"><i class="icones fab fa-instagram textoBranco"></i></a>
+        </div>
+      </section>
+      <div class="album py-5 bg-light" id="Projetos">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="https://i.ibb.co/R6DqBPW/warwick.jpg" alt="warwick" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172c88d12e0%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172c88d12e0%22%3E%3Crect%20width%3D%22208%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2266.9296875%22%20y%3D%22118.04375%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Primeiro projeto apresentado à disciplina de Experiência Criativa utilizando o IDE Construct 3. Nesse ambiente, foi desenvolvido um jogo de plataforma intitulado "Ghost of Warwick", protagonizado pelo herói vicking Conrad. </p>
+                  <ul>
+                      <li>HTML5</li>
+                      <li>Drag and Drop</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="https://i.ibb.co/ynf8RX7/rmc.png" alt="rmc" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172c88d12e2%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172c88d12e2%22%3E%3Crect%20width%3D%22208%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2266.9296875%22%20y%3D%22118.04375%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Segundo projeto apresentado à disciplina de Experiência Criativa utilizando o IDE Processing. Nesse ambiente, foi desenvolvido um mapa interativo que apresenta o número de homicícios dolosos na Região Metropolitana de Curitiba (RMC).</p>
+                  <ul>
+                      <li>Sketchbook</li>
+                      <li>Java</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="https://i.ibb.co/FJBjJD2/wf.png" alt="wf" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172c88d12e5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172c88d12e5%22%3E%3Crect%20width%3D%22208%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2266.9296875%22%20y%3D%22118.04375%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Terceiro projeto apresentado à disciplina de Economia Criativa utilizando Windows Forms C#. Nesse ambiente, foi desenvolvido um portfolio com jogos em 2D e um mapa interativo da COVID-19 no mundo.</p>
+                  <ul>
+                      <li>Windows Form</li>
+                      <li>C#</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="https://i.ibb.co/896bXJ8/banco.png" alt="banco" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172c88d12e5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172c88d12e5%22%3E%3Crect%20width%3D%22208%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2266.9296875%22%20y%3D%22118.04375%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Primeiro projeto apresentado à disciplina de Raciocínio Algorítmico utilizando o IDE PyCharm. O objetivo do projeto era construir um sistema bancário com duas interfaces, a do gerente e a do cliente</p>
+                  <ul>
+                      <li>Python</li>
+                      <li>PyCharm</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" >
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="https://i.ibb.co/55Zj4dT/memoria.png" alt="memoria" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172c88d12e5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172c88d12e5%22%3E%3Crect%20width%3D%22208%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2266.9296875%22%20y%3D%22118.04375%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Segundo projeto apresentado à disciplina de Raciocínio Algorítmico utilizando o IDE Pycharm. O objetivo do projeto era construir um simulador de memória empregando os algoritimos "first fit", "best fit" e "worst fit".</p>
+                  <ul>
+                      <li>Python</li>
+                      <li>PyCharm</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!--Sobre Mim-->
+      <section class="jumbotron text-justify corPrimaria" id="Sobre Mim">
+          <div class="container">
+              <h2 class="jumbotron-heading text-center titulosBrancos">Sobre Mim</h2>
+              <p class="lead text-muted textoBranco">Doutor em Desenvolvimento Econômico pela Universidade Federal do Paraná (PPGDE-UFPR). Concluiu a graduação em Economia pela Universidade Federal do Paraná (2008) e o mestrado em Economia pela Universidade Federal do Rio Grande do Sul (2012). Atualmente, tem-se dedicado à pesquisa empírica em Economia do Setor Público e em Finanças Públicas Regionais. Parte dos seus estudos está focada no impacto da alocação dos gastos públicos e das decisões políticas sobre o crescimento e bem-estar social. Trabalha com Análise Multivariada e Redes Neurais Artificiais (RNAs) aplicadas às demais áreas da Economia. É professor titular e coordenador do curso de Economia da Faculdade de Estudos Sociais do Paraná (FESP-PR) e professor assistente da Pontifícia Universidade Católica do Paraná (PUC-PR).</p>
+          </div>
+      </section>
+
+      <!--Contato-->
+      <section id="Contato">
+          <div>
+              <div class="container-fluid corSecundaria">
+                  <h3 class="text-center">Contato</h3>
+                  <a href="mailto:luiz.neduziak@pucpr.br"><h4 class="text-center">luiz.neduziak@pucpr.br</h4></a>
+              </div>
+          </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="text-center corPrimaria">
+          <p class='textoBranco'><i>“Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer. Alan Turing”<i></p>
+      </footer>
+
+</body>
+</html>
